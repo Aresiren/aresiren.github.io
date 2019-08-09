@@ -1,10 +1,10 @@
 # Site settings
-title: BY Blog
-SEOTitle: IsMy的博客 | BY Blog
+title: WY Blog
+SEOTitle: IsMy的博客 | WY Blog
 header-img: img/post-bg-desk-moutains-and-rivers.jpg
 email: baiyouming2011@gmail.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, WY的博客, python, java, go,nodejs"
+keyword: "WY, WY Blog, WY的博客, python, java, go, nodejs"
 url: "http://aresiren.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/Aresiren/aresiren.github.io.git" # you code repository
