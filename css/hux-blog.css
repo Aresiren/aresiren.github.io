@@ -10,7 +10,7 @@
   }
 }
 .sidebar-container {
-  color: #5a5a5a;
+  color: #727272;/*右边栏其余部分颜色适中些就可以了*/
   font-size: 14px;
 }
 .sidebar-container h5 {
@@ -22,14 +22,14 @@
   text-decoration: none;
 }
 .sidebar-container a {
-  color: #5a5a5a !important;
+  color: #8a8a8a !important;/*友情链接颜色要最浅*/
 }
 .sidebar-container a:hover,
 .sidebar-container a:active {
   color: #0085a1 !important;
 }
 .sidebar-container .tags a {
-  border-color: #5a5a5a;
+  border-color: #626262;/*标签颜色深也还不错*/
 }
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
