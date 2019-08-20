@@ -4,7 +4,7 @@ title:      hibernate方言扩展
 subtitle:   org.hibernate.dialect包中class使用问题
 date:       2019-08-20
 author:     WY
-header-img: img/post-shuimohua-dragonfly-bg.png
+header-img: img/black-and-white/lotus-root.jpg
 catalog: true
 tags:
     - JAVA
