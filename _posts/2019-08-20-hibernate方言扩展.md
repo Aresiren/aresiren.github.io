@@ -20,7 +20,7 @@ tags:
 
  代码与实现说明如下：
  ```java
- /*位置位于hibernate-core-版本.Final.jar中的org.hibernate.dialect包中但并没有对应11g，没有Oracle11gDialect只有Oracle10gDialect class文件？
+ /*位置位于hibernate-core-版本.Final.jar中的org.hibernate.dialect包，但并没有对应11g，没有Oracle11gDialect只有Oracle10gDialect class文件？该如何解决！？
  打开Oracle10gDialect文件：
 
 */
@@ -52,9 +52,9 @@ public class Oracle10gDialect extends Oracle9iDialect {
 }
  ```
 
-从源码上看10g和9g就多了连接查询处理，其他和没有差别了，这也就是继承后又加了个新方法实现的效果！
+从源码上看10g和9g就多了连接查询处理，其他的就没有差别了。这也就是java里面继承后又加了个新方法实现的效果！
 
-那么，这个针对11g的扩展该怎么写，就比较清楚了。一种：
+那么，这个针对11g的扩展该怎么写，思路基本上就比较清楚了。一种：
 ```java
 public class Oracle11gDialect extends Oracle9iDialect {
     public Oracle11gDialect() {
@@ -167,7 +167,8 @@ public class Oracle11gDialect extends Oracle10iDialect {
 
 ##...
 
-## ending
+## 结语
+> 用github上提供可部署ruby web项目，写博客练练手。
 
 ### 参考[reference]
 
